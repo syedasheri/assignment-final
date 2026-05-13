@@ -1,0 +1,71 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+.logodiv{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logodiv img{
+    width: 7%;
+}
+.logodiv span{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+
+}
+header{
+    width: 100%;
+    display: flex;
+    background: rgb(255, 250, 245);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0.5rem 1rem;
+    padding: 30px 40px;
+    justify-content: space-around;
+}
+.navlinks{
+    display: flex;
+    gap: 40px;
+}
+.navlinks li{
+    list-style: none;
+}
+.navlinks li a{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+#orange{
+    color: rgb(255, 131, 103);
+}
+.hero{
+    display: flex;
+    justify-content: space-around;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: left;
+    padding: 30px 20px;
+    margin: 70px;
+}
+@font-face {
+    font-family:"sekuya";
+    src: url(./fonts/Sekuya-Regular.ttf);
+}
+.content h1{
+    font-family: sekuya;
+    font-size: 350%;
+    font-weight: lighter;
+}
+#heading{
+      color: rgb(255, 131, 103);
+}
+button{
+    background-color: blue;
+    color: antiquewhite;
+    width: 90px;
+    height: 60px;
+    border-radius: 10px;
+}
